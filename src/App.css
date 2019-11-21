@@ -1,22 +1,103 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.header {
+  margin: 30px 0 30px 0;
+}
+.button {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(36, 14, 14);
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button:hover {
+  border: none;
+  border-radius: 5px;
+  margin: 9px;
+  padding: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #000;
+}
+
+.button:focus {
+  border: none;
+  border-radius: 5px;
+  margin: 9px;
+  padding: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #000;
+}
+
+.button-shadow {
+  -webkit-box-shadow: 10px 10px 21px -12px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 10px 10px 21px -12px rgba(0, 0, 0, 0.42);
+  box-shadow: 10px 10px 21px -12px rgba(0, 0, 0, 0.42);
+}
+
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.row p {
+  font-size: 12px;
+}
+
+.cards {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.shadow {
+  -webkit-box-shadow: 10px 9px 55px -20px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 9px 55px -20px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 9px 55px -20px rgba(0, 0, 0, 0.5);
+}
+.state-img {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.other-temps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.other-temps p {
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+.wind {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.wind span {
+  font-size: 12px;
+}
+
+.wind p {
+  font-size: 1.5em;
+  margin: 5px;
 }
