@@ -21,7 +21,6 @@ export default class London extends Component {
       "Friday",
       "Saturday"
     ];
-    // let date =
     let dayOfTheWeek = new Date(day);
     let dayName = weekday[dayOfTheWeek.getDay()];
     return dayName;
